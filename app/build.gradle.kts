@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -8,7 +11,7 @@ android {
     namespace = "com.terraable.app"
     compileSdk = 34
 
-    val localProperties = java.util.Properties()
+    val localProperties = Properties()
     val localPropertiesFile = rootProject.file("local.properties")
     if (localPropertiesFile.exists()) {
         localProperties.load(localPropertiesFile.inputStream())
