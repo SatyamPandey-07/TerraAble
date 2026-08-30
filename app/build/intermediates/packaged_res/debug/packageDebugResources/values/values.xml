@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#FF38BDF8</color>
+    <color name="bg_dark">#FF0C0F14</color>
+    <color name="black">#FF0A0D10</color>
+    <color name="primary_green">#FF22C55E</color>
+    <color name="surface_dark">#FF131922</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">TerraAble</string>
+    <string name="tagline">Travel that works for people and the planet.</string>
+    <style name="Theme.TerraAble" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0A0D10</item>
+        <item name="android:navigationBarColor">#0A0D10</item>
+        <item name="android:windowBackground">#0A0D10</item>
+    </style>
+</resources>
